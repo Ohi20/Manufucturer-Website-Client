@@ -1,6 +1,6 @@
 # Assignment 12
 
-This project was bootstrapped with [Create React App](https://superlative-treacle-0a7794.netlify.app/).
+This project was bootstrapped with [Site Link](https://superlative-treacle-0a7794.netlify.app/).
 
 ## Camerassories
 
