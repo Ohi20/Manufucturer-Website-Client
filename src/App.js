@@ -9,6 +9,7 @@ import Blogs from './Pages/Blogs/Blogs';
 import Portfolio from './Pages/Portfolio/Portfolio';
 import Login from './Pages/Login/Login';
 import SignUp from './Pages/Login/SignUp';
+import Requireauth from './Pages/Login/Requireauth';
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
       <Navbar></Navbar>
        <Routes>
         <Route path="/" element={<Home></Home>} />
-        <Route path="/purchase" element={<Purchase></Purchase>} />
-        <Route path="/dashboard" element={<Dashboard></Dashboard>} />
+        <Route path="/purchase" element={<Requireauth><Purchase></Purchase></Requireauth>} />
+        <Route path="/dashboard" element={<Requireauth><Dashboard></Dashboard></Requireauth>} />
         <Route path="/blogs" element={<Blogs></Blogs>} />
         <Route path="/login" element={<Login></Login>} />
         <Route path="/signup" element={<SignUp></SignUp>} />
