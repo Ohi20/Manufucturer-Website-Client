@@ -10,6 +10,7 @@ import Portfolio from './Pages/Portfolio/Portfolio';
 import Login from './Pages/Login/Login';
 import SignUp from './Pages/Login/SignUp';
 import Requireauth from './Pages/Login/Requireauth';
+import { ToastContainer  } from 'react-toastify';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="*" element={<NotFound></NotFound>} />
         
       </Routes>
+      <ToastContainer></ToastContainer>
     </div>
   );
 }
