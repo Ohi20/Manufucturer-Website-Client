@@ -4,7 +4,7 @@ import bannerHome from '../../Assets/images/bannerHome.jpg';
 const Banner = () => {
     return (
         <div class="hero my-10">
-  <div class="hero-content flex-col lg:flex-row">
+  <div class="hero-content flex-col lg:flex-row grid sm:grid-cols-1 lg:grid-cols-2">
     <div className='mr-5'>
     <img src={bannerHome} class="max-w-sm  rounded-lg shadow-2xl" />
     </div>

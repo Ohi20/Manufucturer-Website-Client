@@ -1,10 +1,19 @@
-# Getting Started with Create React App
+# Assignment 12
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Camerassories
 
 In the project directory, you can run:
+
+### Project Pages
+
+1. Home 
+2. Appointment
+3. Login
+4. Blogs
+5. Portfolio
+6. Dashboard 
 
 ### `npm start`
 
